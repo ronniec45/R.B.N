@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(18, 8, 102);
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+nav{
+    width: 100vw;
+    height: 100%;
+    display: inline-flex;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul{
+    margin: 0px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu ul li{
+    padding: 18px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+.menu ul li:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+.menu ul li a{
+    color: rgb(17, 17, 17);
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+}
